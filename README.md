@@ -1,6 +1,7 @@
 ## BYTEBOOST LANDING PAGE**
 --------------
-**BOOST YOUR PRODUCTIVITY WITH OUR TOP-OF-THE-LINE TOOLS AND SOFTWARE*
+**BOOST YOUR PRODUCTIVITY WITH OUR TOP-OF-THE-LINE TOOLS AND SOFTWARE**
+
 Are you tired of feeling overwhelmed and stuck in your work? Do you struggle to stay focused and motivated?
 Our team of experts has created a suite of tools and software designed to help you boost your productivity and 
 achieve your goals. From time management to goal setting, we've got you covered.
