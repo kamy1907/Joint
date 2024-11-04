@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { 
   Zap, 
   Rocket, 
-  Code, 
-  Shield, 
   ChevronUp, 
   Menu, 
   X, 
