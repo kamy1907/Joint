@@ -22,9 +22,7 @@ achieve your goals. From time management to goal setting, we've got you covered.
 If you're ready to take your productivity to the next level, sign up for our free trial today
 and experience the benefits of our top-of-the-line tools and software.
 [Sign Up](#)
+
 [Learn More](#)
-[Contact Us](#)
-[Support](#)
-[About Us](#)
-[Privacy Policy](#)
+
 [Terms of Service](#)
