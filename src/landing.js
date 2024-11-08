@@ -13,6 +13,7 @@ const LandingPage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [activeTestimonial, setActiveTestimonial] = useState(0);
+  const [percentage, setPercentage] = useState(0);
 
   // Scroll to top functionality
   useEffect(() => {
@@ -45,6 +46,20 @@ const LandingPage = () => {
     }
   ];
 
+
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const randomValue = Math.floor(Math.random() * 100) + 1;
+      setPercentage(randomValue);
+    }, 1200);
+
+    // Clear interval on component unmount
+    return () => clearInterval(interval);
+  }, []);
+
+
+
   const testimonials = [
     {
       name: 'David Zhang',
@@ -67,7 +82,7 @@ const LandingPage = () => {
   ];
 
   const stats = [
-    { value: '500%', label: 'Performance Boost' },
+    { value: `${percentage}%`, label: 'Performance Boost' },
     { value: '24/7', label: 'System Uptime' },
     { value: '10ms', label: 'Response Time' },
     { value: '99.9%', label: 'Client Satisfaction' }
