@@ -1,11 +1,10 @@
-// import logo from './logo.svg';
 import './App.css';
-import LandingPage from './landing'
+import Exchange from './Implement';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
+      <Exchange/>
     </div>
   );
 }
