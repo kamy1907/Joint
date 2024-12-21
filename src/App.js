@@ -1,10 +1,10 @@
 import './App.css';
-import Exchange from './Implement';
+import Imp from './byteBoost-landing';
 
 function App() {
   return (
     <div className="App">
-      <Exchange/>
+      <Imp/>
     </div>
   );
 }
