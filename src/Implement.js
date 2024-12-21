@@ -100,7 +100,7 @@ const Exchange = () => {
               type="number"
               className="w-full p-3 bg-white/10 text-white rounded-lg border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={amount}
-              onChange={(e) => setAmount(parseFloat(e.target.value) || 0)}
+              onChange={(e) => setAmount(parseFloat(e.target.value))}
               min="0"
               step="0.01"
             />
